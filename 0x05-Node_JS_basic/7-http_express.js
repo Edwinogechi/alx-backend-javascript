@@ -16,7 +16,7 @@ function countStudents(path) {
       const idxFn = header.findIndex((ele) => ele === 'firstname');
       const idxFd = header.findIndex((ele) => ele === 'field');
 
-      // Initializing dictionaries to count the number of students in each field and store the list of students
+      // Initializing dictionaries to count the number of students 
       const fields = {};
       const students = {};
       
